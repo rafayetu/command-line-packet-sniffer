@@ -1,4 +1,4 @@
-# A Network Packet Monitoring Tool - Packet Sniffing using Python 2.7
+# A Network Packet Monitoring Tool - Packet Sniffing using Python
 
 To run the program do the following from terminal:
 	1. Go to root mode
@@ -45,13 +45,6 @@ To run the program do the following from terminal:
 
 # Dependencies
 	1. Operating System : Ubuntu, Linux
-	2. Platform : Python 2.7
+	2. Platform : Python
 	3. Libraries/Modules: socket, sys, struct		[all of these are built in modules of python] 
 	4. Internet connection or Lan connection.
-
-
-# References/Documentations
-	Socket Connection	:	https://docs.python.org/2/library/socket.html#socket.socket
-	Struct				:	https://docs.python.org/2/library/struct.html
-	Youtube Tutorial 	:	https://www.youtube.com/watch?v=WGJC5vT5YJo
-
