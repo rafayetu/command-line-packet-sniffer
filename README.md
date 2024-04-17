@@ -49,20 +49,20 @@ To run the program, follow these steps from your terminal:
 # Program Features:
 	1. It can handle this protocols:
 		Data Link Layer:	Ethernet
-		Network Layer:		IPV4					[It can identify all the protocols given here but it can only give information of IPV4 protocol]
-		Transport Layer:	TCP,UDP,ICMP			[It can identify all the protocols given here but it can only give information of TCP, UDP, ICMP protocol]
+		Network Layer:		IPV4		[It can identify all the protocols given here but it can only give information of IPV4 protocol]
+		Transport Layer:	TCP,UDP,ICMP	[It can identify all the protocols given here but it can only give information of TCP, UDP, ICMP protocol]
 	2. It can print almost all the information of an packet.
 
 # Code properties:
 	1. It contains a11 source files.
 	2. Python File:
-		main.py 		:	It contains the main function where the program starts from.
-		sniffer.py 		:	It contains PacketSniffer (Captures packets) and Packet (Every packet works as Packet object instances) object class.
-		messages.py 	:	It contains MessageBox object class which handles all display messages related tasks.
-		converter.py 	: 	It contains commonly used basic function tools
-		data_link.py 	: 	It contains Data Link Layer protocol object classes (Ethernet)
-		network.py 		: 	It contains Network Layer protocol object classes (IPv4)
-		transport.py 	: 	It contains Transport Layer protocol object classes (TCP, UDP, ICMP)
+		main.py 	: It contains the main function where the program starts from.
+		sniffer.py 	: It contains PacketSniffer (Captures packets) and Packet (Every packet works as Packet object instances) object class.
+		messages.py 	: It contains MessageBox object class which handles all display messages related tasks.
+		converter.py 	: It contains commonly used basic function tools
+		data_link.py 	: It contains Data Link Layer protocol object classes (Ethernet)
+		network.py 	: It contains Network Layer protocol object classes (IPv4)
+		transport.py 	: It contains Transport Layer protocol object classes (TCP, UDP, ICMP)
 	3. Executable File:
 		main.py
 
