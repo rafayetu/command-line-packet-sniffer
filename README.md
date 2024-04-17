@@ -1,27 +1,50 @@
 # A Network Packet Monitoring Tool - Packet Sniffing using Python
 
-To run the program do the following from terminal:
-	1. Go to root mode
-		-> $ sudo su -
-		-> Then enter your password
-	2. Then change the directory where the programm files are stored
-		-> $ cd Directory/../../
-	3. Run the python file
-		-> $ python main.py build
-	4. Choice option will come
-		-> Options:
-			1. Capture packets and analyze it
-			->> Selecting option '1' will ask you for a the number of packets you want to capture or analyze. Then capturing will start.
-			->> If you choose option '1' it will give you another list of options after capturing data. 
-				->> Options:
-						1. Print details of packets
-						0. Exit
-						->>> Selecting option '1' will give you another list of options.
-						->>> Options:
-							1. Print details of all packets
-							2. Print details of a specific packet
-							3. Print details of all packets in range
-							0. Exit from option '1'
+# Running the Program
+
+To run the program, follow these steps from your terminal:
+
+1. **Enter Root Mode:**
+   - Switch to root mode by running:
+     ```
+     $ sudo su -
+     ```
+   - Then enter your password.
+
+2. **Change Directory:**
+   - Navigate to the directory where the program files are stored:
+     ```
+     $ cd ~/command-line-packet-sniffer
+     ```
+
+3. **Run the Python File:**
+   - Execute the main program file:
+     ```
+     $ python main.py
+     ```
+
+4. **Choose an Option:**
+   - After running the script, you will see a menu of options:
+     ```
+     Options:
+     1. Capture packets and analyze it
+     ```
+   - Selecting option '1' will prompt you to enter the number of packets you want to capture or analyze. The capturing will then start.
+   - If you choose option '1', it will provide another list of options after capturing data:
+     ```
+     Options:
+     1. Print details of packets
+     0. Exit
+     ```
+     - Selecting option '1' here will present further choices:
+       ```
+       Options:
+       1. Print details of all packets
+       2. Print details of a specific packet
+       3. Print details of all packets in range
+       0. Exit from option '1'
+       ```
+
 
 # Program Features:
 	1. It can handle this protocols:
@@ -48,3 +71,4 @@ To run the program do the following from terminal:
 	2. Platform : Python
 	3. Libraries/Modules: socket, sys, struct		[all of these are built in modules of python] 
 	4. Internet connection or Lan connection.
+
